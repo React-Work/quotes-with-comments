@@ -1,0 +1,47 @@
+[debug] [2022-12-04T09:17:02.309Z] ----------------------------------------------------------------------
+[debug] [2022-12-04T09:17:02.311Z] Command:       /Users/parminder/.nvm/versions/node/v16.17.0/bin/node /Users/parminder/.nvm/versions/node/v16.17.0/bin/firebase init
+[debug] [2022-12-04T09:17:02.311Z] CLI Version:   11.16.1
+[debug] [2022-12-04T09:17:02.311Z] Platform:      darwin
+[debug] [2022-12-04T09:17:02.311Z] Node Version:  v16.17.0
+[debug] [2022-12-04T09:17:02.313Z] Time:          Sun Dec 04 2022 14:47:02 GMT+0530 (India Standard Time)
+[debug] [2022-12-04T09:17:02.313Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-04T09:17:02.315Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-04T09:17:02.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-04T09:17:02.335Z] > authorizing via signed-in user (parminder94171@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/parminder/Documents/Learning/React/react-router-project
+
+[debug] [2022-12-04T09:17:03.210Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-12-04T09:17:03.210Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-04T09:17:11.819Z] > refreshing access token with scopes: []
+[debug] [2022-12-04T09:17:11.821Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-04T09:17:11.822Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-04T09:17:12.526Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-04T09:17:12.526Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-04T09:17:12.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-04T09:17:13.359Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-12-04T09:17:13.359Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project react-http-101da (react-http) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
